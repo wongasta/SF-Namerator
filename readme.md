@@ -13,4 +13,6 @@ This application parses the XML file and let users generate their business respo
 [http://www.yixinxia.com/old/usaa/sf](http://www.yixinxia.com/old/usaa/sf)
 
 ###Regex Used
+```
 var userREGEX = /([a-z_0-9]{2,4})[|]([a-z_0-9]{2,4})[|]([a-z_0-9]{2,3})[|]([a-z_0-9]{2,3})[|]([a-z_0-9]{2,3})[|]([a-z_0-9]{2,3})[|]([^|\s]{1,25})[|]([^|]{1,25})[^|\s]/;
+```
