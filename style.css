@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	height: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333;
+	background: url(images/bg0.png) top left repeat;
+}
+
+#fixedTopContainer{
+	width: 100%;
+	height: 180px;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	z-index: 999;
+	background: url(images/bg0.png);
+}
+
+	#fixedTopContainer .topDiv{
+		height: 100%;
+		width: 1000px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.topDivRight{
+		width: 700px;
+		float: right;
+		height: 180px;
+	}
+	
+	.topDivLeft{
+		width: 300px;
+		float: left;
+		height: 180px;
+		text-align: center;
+		padding-top: 60px;
+	}
+	
+	#fixedTopContainer .topLogo{
+		height: 110px;
+		width: 1000px;
+		padding-top: 40px;
+	}
+	
+	#fixedTopContainer .topToggle{
+		height: 35px;
+		width: 100%;
+	}
+	
+		#fixedTopContainer .topToggle .right{
+			width: 200px;
+			float: right;
+		}
+		
+		#fixedTopContainer .topToggle .right a:active, #fixedTopContainer .topToggle .right a:link, #fixedTopContainer .topToggle .right a:visited{
+			opacity: 0.8;
+		}
+		
+		#fixedTopContainer .topToggle .right a:hover{
+			opacity: 1.0;
+		}
+	
+	#fixedTopContainer .topForm{
+		height: 45px;
+		width: 700px;
+		padding: 10px 0;
+		margin: 0;
+		text-align: left;
+		margin-top: 30px;
+	}
+	
+		#formMain, #formMainR{
+			float: left;
+			height: 34px;
+			padding: 3px 0;
+			text-align: center;
+			font-size: 14px;
+			color: #333;
+			border: 0;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		}
+	
+	#fixedTopContainer .topHint{
+		height: 40px;
+		width: 700px;
+		font-size: 16px;
+		color: #FFF;
+	}
+	
+#bodyContainer{
+	width: 100%;
+	top: 180px;
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.selection{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+
+.selectionDiv{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100px;
+	overflow: hidden;
+	display: block;
+	background: #ddd7d2;
+}
+
+.sdBot{
+	height: 100%;
+}
+
+	.selectionDiv .formBox{
+		margin-left: 0px;
+		width: 740px;
+		height: 100%;
+		text-align: center;
+		float: left;
+	}
+	
+		.selectionDiv .formBox select{
+			width: 694px;
+			height: 25px;
+			margin: 0;
+			padding: 2px 3px 0 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			border: 0;
+			text-align: center;
+			font-size: 12px;
+			color: #333;
+			background: #f3f3f3;
+			margin-top: 15px;
+		}
+		
+		.selectionDiv .formBox input{
+			width: 694px;
+			height: 20px;
+			margin: 0;
+			padding: 3px 3px 0 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			border: 0;
+			text-align: center;
+			font-size: 12px;
+			color: #333;
+			background: #f3f3f3;
+			margin-top: 15px;
+		}
+
+#sel0{
+	background: url(images/bg1.png);
+	top: 0;
+	z-index: 0;
+	height: 400px;
+}
+
+	#sel0 .selectionDiv{
+		/*background: url(images/Platform.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel1{
+	background: url(images/bg2.png);
+	top: 50px;
+	z-index: 1;
+	height: 350px;
+}
+
+	#sel1 .selectionDiv{
+		/*background: url(images/Activity-Type.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel2{
+	background: url(images/bg3.png);
+	top: 100px;
+	z-index: 2;
+	height: 300px;
+}
+
+	#sel2 .selectionDiv{
+		/*background: url(images/Business-Unit.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel3{
+	background: url(images/bg4.png);
+	top: 150px;
+	z-index: 3;
+	height: 250px;
+}
+
+	#sel3 .selectionDiv{
+		/*background: url(images/Product-LOB.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel4{
+	background: url(images/bg5.png);
+	top: 200px;
+	z-index: 4;
+	height: 200px;
+}
+
+	#sel4 .selectionDiv{
+		/*background: url(images/Product-Offered.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel5{
+	background: url(images/bg6.png);
+	top: 250px;
+	z-index: 5;
+	height: 150px;
+}
+
+	#sel5 .selectionDiv{
+		/*background: url(images/Product-Qualifier.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel6{
+	background: url(images/bg7.png);
+	top: 300px;
+	z-index: 6;
+	height: 100px;
+}
+
+	#sel6 .selectionDiv{
+		/*background: url(images/Flow-Type.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+#sel7{
+	background: url(images/bg8.png);
+	top: 350px;
+	z-index: 7;
+	height: 50px;
+}
+
+	#sel7 .selectionDiv{
+		/*background: url(images/Page-Description.png) no-repeat #ddd7d2 30px 33px;*/
+	}
+
+.selectionDiv .formLabel{
+	width: 240px;
+	float: left;
+	height: 35px;
+	padding: 15px 0 0 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.toggleR{
+	display: none;
+	background: url(images/bg8.png) repeat;
+}
+
+.formR input{
+	background: #f4c4ac;
+	width: 640px;
+}
+
+.formR a:active, .formR a:link, .formR a:visited{
+	float: right;
+}
+
+.formN input{
+	background: #becfd2;
+	width: 700px;	
+}
+
+.hintR, .toggleImgR, .formR, .entOptionSP{
+	display: none;
+}
+
+.toggleR .mainArea{
+	width: 1000px;
+	margin: 0 auto;
+	height: 400px;
+	overflow: hidden;
+	display: block;
+	background: #ddd7d2;
+}
+
+.tableR td.r1{
+	width: 240px;
+	height: 50px;
+    padding: 0 0 0 20px;
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.topHint p{
+	margin: 0;
+	padding: 0;
+}
+
+.error{
+	color: #F00;
+	font-weight: bold;
+}

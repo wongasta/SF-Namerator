@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="default.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>Web Page Namerator</title>
+</head>
+
+<body>
+
+<div id="fixedTopContainer">
+	<div class="topDiv">
+    	<div class="topDivLeft">
+        	<img src="images/title.png" width="230" alt="Namerator" />
+        </div>
+        <div class="topDivRight">
+        	<div class="topToggle">
+            	<div class="right">
+                	<a href="#" class="toggleLink"><img src="images/toggle1.png" alt="Toggle" class="toggleImgN" /><img src="images/toggle2.png" alt="Toggle" class="toggleImgR" /></a>
+                </div>
+            </div>
+            <div class="topForm">
+                <div class="formN"><input id="formMain" readonly="readonly" /></div>
+                <div class="formR"><input id="formMainR" /><a href="#" class="buttonR"><img src="images/go.png" width="50" height="40" alt="Toggle" /></a></div>
+            </div>
+            <div class="topHint">
+                <p class="hintN">Select the value below, and the top will display your page name.</p>
+                <p class="hintR">Paste in the value on top and we will search it for you.</p>
+            </div>
+		</div>
+    </div>
+</div>
+<div id="bodyContainer" class="toggleR">
+	<div class="mainArea">
+    	<table width="100%" border="0" class="tableR">
+          <tr>
+            <td class="r1"><div class="formLabel">Platform</div></td>
+            <td class="r2"><div class="outputR0"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Activity Type</div></td>
+            <td class="r2"><div class="outputR1"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Business Unit</div></td>
+            <td class="r2"><div class="outputR2"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Product LOB</div></td>
+            <td class="r2"><div class="outputR3"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Product Offered</div></td>
+            <td class="r2"><div class="outputR4"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Product Qualifier</div></td>
+            <td class="r2"><div class="outputR5"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Flow Type</div></td>
+            <td class="r2"><div class="outputR6"></div></td>
+          </tr>
+          <tr>
+            <td class="r1"><div class="formLabel">Page Description</div></td>
+            <td class="r2"><div class="outputR7"></div></td>
+          </tr>
+        </table>
+    </div>
+</div>
+<div id="bodyContainer" class="toggleN">
+	<div id="sel0" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Platform</div>
+        	<div class="formBox">
+            	<select name="selForm1" id="selForm1" class="selectionForm">
+                  <option value="unselected" selected="selected" class="removeOption"> </option>
+                  <option value="www">usaa.com</option>
+                  <option value="mob">mobile.usaa.com/mobileqa.usaa.com</option>
+                  <option value="iph">iPhone Application</option>
+                  <option value="and">Android Application</option>
+            	  <option value="ipd">iPad Application</option>
+                  <option value="wp8">WindowsPhone8</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="sel1" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Activity Type</div>
+        	<div class="formBox">
+            	<select name="selForm2" id="selForm2" class="selectionForm">
+                  <option value="unselected" selected="selected" class="removeOption"> </option>
+            	  <option value="svc">Service</option>
+                  <option value="acq">Acquisition</option>
+                  <!--<option value="ent">Enterprise</option>
+                  <option value="adv">Advice</option>
+                  <option value="int">Integrated Solutions</option>-->
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="sel2" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Business Unit</div>
+        	<div class="formBox">
+            	<select name="selFormEnt1" id="selFormEnt1" class="selectionForm entOptionSP entOptionSP1">
+            	  <option value="n_a" selected="selected">n_a</option>
+                </select>
+            	<div class="dynContainer"><!-- This area will be dynamically populated --></div>
+            </div>
+        </div>
+    </div>
+    <div id="sel3" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Product LOB</div>
+        	<div class="formBox">
+            	<select name="selFormEnt2" id="selFormEnt2" class="selectionForm entOptionSP entOptionSP2 n_aOption">
+            	  <option value="n_a" selected="selected">n_a</option>
+                </select>
+            	<div class="dynContainer"><!-- This area will be dynamically populated --></div>
+            </div>
+        </div>
+    </div>
+    <div id="sel4" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Product Offered</div>
+        	<div class="formBox">
+            	<select name="selFormEnt3" id="selFormEnt3" class="selectionForm entOptionSP entOptionSP3 n_an_aOption">
+            	  <option value="n_a" selected="selected">n_a</option>
+                </select>
+                <div class="dynContainer"><!-- This area will be dynamically populated --></div>
+            </div>
+        </div>
+    </div>
+    <div id="sel5" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Product Qualifier</div>
+        	<div class="formBox">
+            	<select name="selFormEnt4" id="selFormEnt4" class="selectionForm entOptionSP entOptionSP4 n_an_an_aOption">
+            	  <option value="n_a" selected="selected">n_a</option>
+                </select>
+                <div class="dynContainer"><!-- This area will be dynamically populated --></div>
+            </div>
+        </div>
+    </div>
+    <div id="sel6" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Flow Type</div>
+        	<div class="formBox">
+        		<input name="selForm7" type="text" maxlength="25" class="selectionInput" />
+            </div>
+        </div>
+    </div>
+    <div id="sel7" class="selection">
+    	<div class="selectionDiv">
+        	<div class="formLabel">Page Description</div>
+        	<div class="formBox">
+        		<input name="selForm8" type="text" maxlength="25" class="selectionInput" />
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

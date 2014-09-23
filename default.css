@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Default */
+
+body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote,
+table, caption, thead, tfoot, tbody, tr, th, td, 
+ul, ol, li, dl, dd, dt, 
+form, fieldset{
+	margin: 0;
+	padding: 0;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var{
+	font-style: normal;
+	font-weight: normal;
+}
+
+input.text, textarea{
+	border: 1px solid #666666;
+	padding: 2px;
+	margin-bottom: 1em;
+}
+
+/*CSS Classes*/
+
+.bn{
+	border: 0;
+}
+.b1px{
+	border-width: 1px;
+}
+
+.mn{
+	margin: 0;
+}
+.pn{
+	padding: 0;
+}
+
+.al{
+	text-align: left;
+}
+.ac{
+	text-align: center;
+}
+.ar{
+	text-align: right;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cb{
+	clear: both;
+}
+.cl{
+	clear: left;
+}
+.cr{
+	clear: right;
+}
+.cn{
+	clear: none;
+}
+
+img{
+	border: none;
+}
+
+p{
+	margin: 10px 0;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
+
+ul{
+	margin: 15px 0;
+}
+
+li{
+	margin: 5px 0 5px 25px;
+}
+
+.pic_border{
+	padding: 2px;
+	border: #333 1px solid;
+}
